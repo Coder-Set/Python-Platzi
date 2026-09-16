@@ -1,9 +1,9 @@
-#Fr para letras de un string
+#For para letras de un string
 palabra = "Python"
 for letra in palabra:
     print(letra)
 
-#FFor para listas
+#For para listas
 frutas = ["Manzana", "Naranja", "Kiwi"]
 for fruta in frutas:
     print(fruta)
@@ -42,4 +42,14 @@ for i in range(3, 8):
 print("----------------------------------------------------------------------------")
 for i in range(2, 10, 2):
     print(i) #Imprime del 2 al 8 de 2 en 2
-    
+
+
+print("----------------------------------------------------------------------------")
+#For anidado
+
+adjetivos = ["Saludable", "Grasosa", "Salado", "Dulce"]
+comidas = ["Ensalada", "Hamburguesa", "Burrito", "Pan Dulce"]
+
+for adjetivo in adjetivos:
+	for comida in comidas:
+		print(comida, adjetivo)
