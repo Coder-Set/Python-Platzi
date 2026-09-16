@@ -21,3 +21,25 @@ for amplificador in ampliicadores:
     if amplificador == "Mesa Bogge":
         continue
     print(amplificador)
+
+
+
+print("----------------------------------------------------------------------------")
+
+
+#Para que imprima solo un trozo de la condicion (Rango)
+#range comenza desde cero y termina en el numero que asignemos sin incluirlo
+i = 0
+for i in range(6):
+    print(i) #Imprime del 0 al 5
+
+print("----------------------------------------------------------------------------")
+#Para un Rango mas especifico (3, 8)
+i = 1
+for i in range(3, 8):
+    print(i) #Imprime del 3 al 7
+
+print("----------------------------------------------------------------------------")
+for i in range(2, 10, 2):
+    print(i) #Imprime del 2 al 8 de 2 en 2
+    
